@@ -8,17 +8,21 @@
 </head>
 <body>
     <table class="table table-dark">
-        <thead>
+        <thead id="tHead">
             <th>#</th>
             <th>first</th>
             <th>last</th>
             <th>favorite color</th>
         </thead>
+        <tbody id="tBody">
+            <tr>
+            </tr>
+        </tbody>
     </table>
 
     <form>
         <div>
-            <label for="'firstName" class="form-label">First Name</label>
+            <label for="firstName" class="form-label">First Name</label>
             <input type="text" class="form-control" id="firstName" />
         </div>
         <div>
@@ -26,10 +30,10 @@
             <input type="text" class="form-control" id="lastName" />
         </div>
         <div>
-            <label for=""favoriteColor" class="form label">Favorite color</label>
-            <input type="text" class="form-control" id="favortieColor" />
+            <label for="favoriteColor" class="form-label">Favorite Color</label>
+            <input type="text" class="form-control" id="favoriteColor" />
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary" id="formSubmit">Submit</button>
     </form>
     
     <script src="index.js"></script>
